@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+@font-face{
+	font-family: "swissBT";
+	src: url(png/Swiss721Bold.otf);
+}
+
+@font-face{
+	font-family: "swissRoman";
+	src: url(png/Swiss721Roman.otf);
+}
+
+@font-face{
+	font-family: "swissLight";
+	src: url(png/Swiss721Light.otf);
+}
+
+body{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.bodySection{
+	margin-top: -2%;
+	padding: 0 15% 0 15%;
+	background-color: #ffcd9e;
+}
+
+footer{
+	background-color: #282828;
+/*	margin: 0 -21.5% 0 -21.5%;*/
+	height: 100%;
+	padding: 2%;
+	position: relative;
+	z-index: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.footer-content{
+	line-height: 2vw;
+	color: white;
+	font-family: swissLight;
+	font-size: 1.1vw;
+	margin: 0 25% 0 25%;
+	padding: 0 10% 0 10%;
+}

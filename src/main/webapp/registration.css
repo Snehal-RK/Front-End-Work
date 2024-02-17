@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #ffcd9e;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+}
